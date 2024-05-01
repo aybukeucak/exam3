@@ -32,7 +32,7 @@ int ft_printf(const char *str, ... )
     {
         if(*str == '%' && *(str + 1))
         {
-            str++; // % için 
+            str++;
             if(*str == 's')
                 ft_putstr(va_arg(arg, char *), &i);
             else if(*str == 'd')
