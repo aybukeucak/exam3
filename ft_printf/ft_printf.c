@@ -48,7 +48,7 @@ int ft_printf(const char *str, ... )
     return(i);
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     ft_printf("Hexadecimal for %d is %x\n", 42, 42);
@@ -56,4 +56,4 @@ int main()
     ft_printf("%s\n", "toto");
     printf("%s\n", "toto");
     ft_printf("%s\n", NULL);
-}
+}*/
